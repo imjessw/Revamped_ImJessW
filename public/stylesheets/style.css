@@ -1,8 +1,150 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/*text color and nav bar color match #e7e7e7*/
+body{
+	font-family: arial;
+}
+.navbar{
+	background-color:#826494;
+	color: white;
+	min-height: 36px;
+	margin-bottom: 0;
+	position: fixed;
+	width: 100%;
+	border-radius: 0px;
+
 }
 
-a {
-  color: #00B7FF;
+ul{
+	list-style: none;
+}
+li{
+	display: inline-block;
+	float: right;
+	font-size: 16px;
+	padding: 5px;
+}
+.topIJW{
+	float: left;
+	font-size: 16px;
+	padding: 5px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+
+#section1{
+	background-image: url('../images/mainImage.jpg');
+	background-size: cover;
+	min-height: 630px;
+	margin-top: 0;
+	top: 0;
+}
+
+#section1 h1{
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	padding-top: 255px;
+}
+h3{
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	padding-top: 40px;
+}
+#section2{
+	background-color: #43194a;
+	min-height: 250px;
+}
+.p75{
+	max-width: 75%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+p{
+	padding-top: 30px;
+	padding-bottom: 50px;
+	color: white;
+	text-align: center;
+	margin-bottom: 0;
+	font-size: 16px;
+}
+
+#section3{
+	background-color: #b4214e;
+	min-height: 350px;
+}
+
+.circles{
+	margin-top: 45px;
+	padding-bottom: 45px;
+}
+
+#section4{
+	background-color: #85af6e;
+	min-height: 310px;
+}
+.contactMe{
+	margin-top: 45px;
+	background-color: #c6f1d7;
+}
+.contactMe img{
+	max-height: 100px;
+	max-height: 100px;
+}
+
+.section5{
+	background-color: #826494;
+	text-align: center;
+}
+
+
+button#QButton {
+	border-radius: 0px;
+	background-color:#826494;
+	color: white;
+	font: arial;
+	border: none;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+
+}
+
+.form-group{
+	padding-top: 25px;
+	display: none;
+
+}
+#bottomButton{
+	display: none;
+	margin-bottom: 25px;
+}
+
+
+.btn-default{
+	background-color: #e7e7e7;
+	border-color:#e7e7e7;
+}
+
+#badInfo{
+	display: none;
+}
+#thankYou{
+	color: #e7e7e7;
+	background-color: #2E0854;
+	border-color: #e7e7e7;
+	display: none;
+	
+}
+#bottomButton{
+	border-radius: 0;
+	margin: 10px auto;
+	text-align: center;
+	color: white;
+	background-color: #823b6a
+
 }
