@@ -170,3 +170,8 @@ button#QButton {
 
 @media (max-width: 900px){
 
+#section1{
+	max-height: 360px;
+}	
+
+}
