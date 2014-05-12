@@ -160,3 +160,8 @@ button#QButton {
 #section1{
 	max-height: 480px;
 }
+
+#section4{
+	min-height: 360px;
+}
+}
