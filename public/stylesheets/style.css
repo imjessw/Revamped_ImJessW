@@ -164,4 +164,9 @@ button#QButton {
 #section4{
 	min-height: 360px;
 }
+
+
 }
+
+@media (max-width: 900px){
+
