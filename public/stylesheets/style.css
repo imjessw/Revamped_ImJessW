@@ -189,5 +189,7 @@ button#QButton {
 }
 
 @media (max-width: 500px){
-
+.topIJW{
+	display:none;
+}
 }
